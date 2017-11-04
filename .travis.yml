@@ -1,0 +1,19 @@
+after_script:
+  - docker images
+
+before_script:
+  - cd "$VERSION"
+  - IMAGE="mosquitto:${VERSION/\//-}"
+
+env:
+  - VERSION=1.4
+
+language: bash
+
+script:
+  - docker build -t "$IMAGE" .
+  - docker run -d --name mosquitto "$IMAGE"
+  - docker run --rm -it --link mosquitto "$IMAGE" mosquitto_pub -h mosquitto -t foo/bar/1/on -m "Foo is ON"
+  - docker kill mosquitto
+
+services: docker
