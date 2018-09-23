@@ -7,7 +7,8 @@ A mosquitto docker image.
 
 ## Supported tags and respective `Dockerfile` links
 
-- `1.4.14`, `1.4`, `latest` ([1.4/Dockerfile](https://github.com/ruimarinho/docker-mosquitto/blob/master/1.4/Dockerfile))
+- `1.5.1`, `1.5`, `latest` ([1.5/Dockerfile](https://github.com/ruimarinho/docker-mosquitto/blob/master/1.5/Dockerfile))
+- `1.4.15`, `1.4` ([1.4/Dockerfile](https://github.com/ruimarinho/docker-mosquitto/blob/master/1.4/Dockerfile))
 
 This image will be automatically updated whenever there is an update to the base image (`alpine`).
 

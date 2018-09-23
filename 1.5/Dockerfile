@@ -1,10 +1,10 @@
-FROM alpine:3.7
+FROM alpine:edge
 
 MAINTAINER Rui Marinho <ruipmarinho@gmail.com> (@ruimarinho)
 
 RUN adduser -S mosquitto
 
-RUN apk add --no-cache mosquitto-clients~1.4 mosquitto~1.4 su-exec
+RUN apk add --no-cache mosquitto-clients~1.5 mosquitto~1.5 su-exec
 
 EXPOSE 1883 9001
 
