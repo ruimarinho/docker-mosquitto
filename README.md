@@ -1,9 +1,13 @@
+
+---
+
+⚠️ As of [late 2018](https://github.com/docker-library/official-images/pull/4987), the Eclipse Foundation resumed official support for [Docker Hub](https://hub.docker.com/_/eclipse-mosquitto) with new `eclipse-mosquitto` images.
+
+---
+
 # ruimarinho/mosquitto
 
 A mosquitto docker image.
-
-[![build status][travis-image]][travis-url]
-[![ruimarinho/mosquitto][docker-pulls-image]][docker-hub-url] [![ruimarinho/mosquitto][docker-stars-image]][docker-hub-url] [![ruimarinho/mosquitto][docker-size-image]][docker-hub-url] [![ruimarinho/mosquitto][docker-layers-image]][docker-hub-url]
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -87,9 +91,3 @@ This image is officially supported on Docker version 1.12, with support for olde
 [License information](https://github.com/ruimarinho/docker-mosquitto/blob/master/LICENSE) for the [ruimarinho/docker-mosquitto][docker-hub-url] docker project.
 
 [docker-hub-url]: https://hub.docker.com/r/ruimarinho/mosquitto
-[docker-layers-image]: https://img.shields.io/imagelayers/layers/ruimarinho/mosquitto/latest.svg?style=flat-square
-[docker-pulls-image]: https://img.shields.io/docker/pulls/ruimarinho/mosquitto.svg?style=flat-square
-[docker-size-image]: https://img.shields.io/imagelayers/image-size/ruimarinho/mosquitto/latest.svg?style=flat-square
-[docker-stars-image]: https://img.shields.io/docker/stars/ruimarinho/mosquitto.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/ruimarinho/docker-mosquitto.svg?style=flat-square
-[travis-url]: https://travis-ci.org/ruimarinho/docker-mosquitto
